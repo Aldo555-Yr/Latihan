@@ -16,7 +16,7 @@ body
   width: 200px;
   height: 300px;
   box-shadow: 8px 8px 20px black;
-  top: 250px;
+  top: 200px;
   backdrop-filter: blur(3px);
 }
 .teks
@@ -27,36 +27,40 @@ body
 }
 .lingkar
 {
-  position: absolute;
+  position: relative;
   width: 300px;
   height: 300px;
   background: grey;
   top: 100px;
-  left: 180px;
+  left: 50px;
   border-radius: 50%;
 }
 .kotak1
 {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 300px;
   box-shadow: 8px 8px 20px black;
-  top: 650px;
+  bottom: 190px;
+  left: 100px;
   backdrop-filter: blur(3px);
-}
-.teks
-{
-  position: relative;
-  top: 140px;
-  left: 78px;
 }
 .lingkar1
 {
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 250px;
   background: grey;
-  top: 850px;
-  left: 0px;
+  top: 500px;
+  right: 95px;
   border-radius: 50%;
+}
+.lingkar2
+{
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background: grey;
+  bottom: 700px;
+  left: 50px;
 }
